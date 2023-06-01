@@ -1,0 +1,22 @@
+[
+  {
+    "img": "/icons/1.jpg",
+    "title": "SIGNIFICANT BAR",
+    "lorem": "Lorem ipsum dolor sit amet sectetura dipisicing"
+  },
+  {
+    "img": "/icons/2.jpg",
+    "title": "WONDERFUL CUISINE",
+    "lorem": "Lorem ipsum dolor sit amet sectetura dipisicing"
+  },
+  {
+    "img": "/icons/3.jpg",
+    "title": "CLASSIC RESTAURANT",
+    "lorem": "Lorem ipsum dolor sit amet sectetura dipisicing"
+  },
+  {
+    "img": "/icons/4.jpg",
+    "title": "BEST MASTERCHEFS",
+    "lorem": "Lorem ipsum dolor sit amet sectetura dipisicing"
+  }
+]
