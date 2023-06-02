@@ -2,11 +2,11 @@ import classes from "./CafeAmenities.module.css";
 import icon from "../../db/icons.json";
 
 const Card = ({ img, title, lorem }) => {
-  
   return (
     <div className={classes.card}>
-      <img src={img} alt="Imagen" />
-
+      <div className={classes.divImg}>
+        <img src={img} alt="Imagen" />
+      </div>
       <div className={classes.cardDetails}>
         <h6 className={classes.title}>{title}</h6>
         <p>{lorem}</p>

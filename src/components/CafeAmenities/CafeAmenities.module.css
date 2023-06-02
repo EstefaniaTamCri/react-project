@@ -24,9 +24,11 @@ h2 {
   font-weight: 500;
   font-size: 1.1em;
 }
+
 img {
   width: 35%;
-  margin-left: 5em;
+  /* margin-left: 5em; */
+  justify-content: center;
   margin-bottom: 2em;
 }
 .title {
