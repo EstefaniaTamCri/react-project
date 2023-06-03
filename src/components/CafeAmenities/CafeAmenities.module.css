@@ -1,52 +1,58 @@
-section {
+.main {
   background-color: #f7f7f7;
 }
-h3 {
+.services {
   color: #cd9452;
   font-weight: 400;
   font-family: Poppins, sans-serif;
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-align: center;
-  margin-top: 1em;
+  padding-top: 3em;
 }
 @media screen and (min-width: 768px) {
-  h3 {
-    padding-top: 4em;
+  .services{
+    font-size: 1.5em;
+    padding-top: 4.5em;
   }
 }
 @media screen and (min-width: 1024px) {
-  h3 {
+  .services {
     padding-top: 6em;
     font-size: 1em;
   }
 }
-h2 {
-  font-size: 2.3em;
+.amenities {
+  font-size: 2em;
   font-weight: 900;
   font-family: Poppins, sans-serif;
   text-align: center;
   margin-top: 0.3em;
 }
+
+@media screen and (min-width: 768px) {
+  .amenities {
+    margin-top: 0em;
+    font-size: 2.3em;
+  }
+}
 @media screen and (min-width: 1024px) {
-  h2 {
-    
+  .amenities {
     font-size: 1.8em;
   }
 }
 
 .card {
-  width: 60%;
-  margin-top: 7em;
-  line-height: 2em;
+  width: 55%;
+  line-height: 2.5em;
   color: #8d96a1;
   font-weight: 500;
+  margin-bottom: 12em;
 }
 @media screen and (min-width: 768px) {
   .card {
-    padding: 2em;
+    margin-bottom: 0em;
     width: 40%;
-    margin-right: 2.5em;
-    margin-left: 2.5em;
+    padding: 3em;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -63,10 +69,13 @@ h2 {
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
+  margin-top: 9em;
+  padding-bottom: 7em;
 }
 @media screen and (min-width: 768px) {
   .cardContainer {
-    padding-bottom: 2em;
+    margin-top: 5em;
+
   }
 }
 @media screen and (min-width: 1024px) {
@@ -75,28 +84,27 @@ h2 {
     
   }
 }
-img {
+.image {
   width: 40%;
-  margin-left: 6em;
+  margin-left: 5em;
   margin-bottom: 2em;
   background-color: #f7f7f7;
   justify-content: center;
   text-align: center;
 }
 @media screen and (min-width: 768px) {
-  img {
-    margin-left: 8em;
-    width: 30%;
+  .image {
+    margin-top: 3em;
   }
 }
 @media screen and (min-width: 1024px) {
-  img {
+  .image {
     margin-left: 4em;
     width: 35%;
   }
 }
 .title {
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-weight: 500;
   font-family: Poppins, sans-serif;
   margin-bottom: 0.5em;
@@ -104,11 +112,11 @@ img {
   justify-content: center;
   text-align: center;
 }
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .title {
-    font-size: 1.4em;
+    font-size: 0.9em;
   }
-}
+} */
 @media screen and (min-width: 1024px) {
   .title {
     font-size: 0.9em;
@@ -122,13 +130,14 @@ img {
   font-family: Poppins, sans-serif;
   color: #8d96a1;
 }
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .lorem {
-    font-size: 1.3em;
+    font-size: 0.8em;
     line-height: 2.2em;
     margin-bottom: 3em;
+    padding-right: 9em;
   }
-}
+} */
 @media screen and (min-width: 1024px) {
   .lorem {
     font-size: 0.8em;

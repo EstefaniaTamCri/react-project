@@ -4,13 +4,12 @@ import mainImg from "../../assets/images/main1.webp";
 const Welcome = () => {
   return (
     <>
-      <section>
+      <section className={classes.body}>
         <div className={classes.divImg}>
           <img className={classes.img} src={mainImg} alt="" />
         </div>
         <div className={classes.welcome}>
           <h2 className={classes.headline}>
-            {" "}
             WELCOME TO LITHO <strong>CAFE & RESTAURANT</strong>
           </h2>
 
@@ -20,8 +19,7 @@ const Welcome = () => {
           </p>
           <p className={classes.secondParagraph}>
             Lorem ipsum is simply dummy text printing and typesetting industry.
-            Lorem ipsum been industry standard dummy text ever since
-            printer.
+            Lorem ipsum been industry standard dummy text ever since printer.
           </p>
           <button className={classes.button}>EXPLORE MORE</button>
         </div>
