@@ -1,40 +1,137 @@
+section {
+  background-color: #f7f7f7;
+}
 h3 {
   color: #cd9452;
-  font-weight: 500;
+  font-weight: 400;
   font-family: Poppins, sans-serif;
-  font-size: 1.3em;
+  font-size: 1.5em;
   text-align: center;
   margin-top: 1em;
 }
+@media screen and (min-width: 768px) {
+  h3 {
+    padding-top: 4em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  h3 {
+    padding-top: 6em;
+    font-size: 1em;
+  }
+}
 h2 {
-  font-size: 1.9em;
+  font-size: 2.3em;
   font-weight: 900;
   font-family: Poppins, sans-serif;
   text-align: center;
   margin-top: 0.3em;
 }
+@media screen and (min-width: 1024px) {
+  h2 {
+    
+    font-size: 1.8em;
+  }
+}
+
 .card {
-  width: 50%;
-  /* border: solid 1px black; */
-  margin-left: 7em;
-  margin-top: 6em;
-  text-align: center;
+  width: 60%;
+  margin-top: 7em;
   line-height: 2em;
   color: #8d96a1;
   font-weight: 500;
-  font-size: 1.1em;
 }
-
-img {
-  width: 35%;
-  /* margin-left: 5em; */
+@media screen and (min-width: 768px) {
+  .card {
+    padding: 2em;
+    width: 40%;
+    margin-right: 2.5em;
+    margin-left: 2.5em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .card {
+    width:15%;
+    padding:0;
+    margin-right: 2em;
+    margin-left: 2em;
+  }
+}
+.cardContainer {
+  display: flex;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .cardContainer {
+    padding-bottom: 2em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cardContainer {
+    padding-bottom: 4.5em;
+    
+  }
+}
+img {
+  width: 40%;
+  margin-left: 6em;
   margin-bottom: 2em;
+  background-color: #f7f7f7;
+  justify-content: center;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  img {
+    margin-left: 8em;
+    width: 30%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  img {
+    margin-left: 4em;
+    width: 35%;
+  }
 }
 .title {
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 500;
   font-family: Poppins, sans-serif;
   margin-bottom: 0.5em;
   color: black;
+  justify-content: center;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 1.4em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .title {
+    font-size: 0.9em;
+  }
+}
+.lorem {
+  justify-content: center;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.2em;
+  font-family: Poppins, sans-serif;
+  color: #8d96a1;
+}
+@media screen and (min-width: 768px) {
+  .lorem {
+    font-size: 1.3em;
+    line-height: 2.2em;
+    margin-bottom: 3em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .lorem {
+    font-size: 0.8em;
+    
+  }
 }

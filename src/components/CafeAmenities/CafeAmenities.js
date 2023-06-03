@@ -4,12 +4,11 @@ import icon from "../../db/icons.json";
 const Card = ({ img, title, lorem }) => {
   return (
     <div className={classes.card}>
-      <div className={classes.divImg}>
         <img src={img} alt="Imagen" />
-      </div>
+      
       <div className={classes.cardDetails}>
         <h6 className={classes.title}>{title}</h6>
-        <p>{lorem}</p>
+        <p className={classes.lorem}>{lorem}</p>
       </div>
     </div>
   );
@@ -22,7 +21,7 @@ const CafeAmenities = () => {
         <h3>AMAZING SERVICES</h3>
         <h2>CAFE AMENITIES</h2>
       </div>
-      <div className="card-container">
+      <div className={classes.cardContainer}>
         {icon.map((item, index) => (
           <Card
             key={index}
