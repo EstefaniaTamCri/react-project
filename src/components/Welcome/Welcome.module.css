@@ -4,19 +4,16 @@
 @media screen and (min-width: 768px) {
   .body {
     display: flex;
-    margin-left: 5em;
-    margin-right: 5em;
-    /* padding-left: 4em;
-    padding-right: 4em; */
+    margin-left: 3em;
   }
 }
 .body .divImg {
   width: 100%;
-  margin-top: 2em;
+  margin: 5em 1em;
 }
 @media screen and (min-width: 768px) {
   .body .divImg {
-    /* margin-top: 1.5em; */
+    margin-top: 12.5em;
     width: 45%;
     order: 2;
     display: flex;
@@ -27,7 +24,7 @@
   }
 }
 .body .divImg .img {
-  width: 90%;
+  width: 95%;
 }
 @media screen and (min-width: 768px){
   .body .divImg .img {
@@ -55,14 +52,15 @@
   }
 }
 .welcome .headline {
-  font-size: 2rem;
-  font-family: Poppins, sans-serif;
+  font-size: 3rem;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   margin-top: 1.5em;
 }
 @media screen and (min-width: 768px) {
   .welcome .headline {
-    font-size: 1.9rem;
+    margin-top: 2em;
+    font-size: 2.6rem;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -71,17 +69,18 @@
   }
 }
 .welcome .firstParagraph {
-  margin-top: 2em;
-  font-size: 1.15em;
+  margin-top: 1em;
+  font-size: 1.8em;
   border-left: #cd9452 4px solid;
   padding-left: 2em;
   line-height: 2em;
   font-weight: 500;
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 @media screen and (min-width: 768px) {
   .welcome .firstParagraph {
-    font-size: 1rem;
+    font-size: 1.4rem;
+    margin-top: 4em;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -94,33 +93,34 @@
   line-height: 2em;
   padding-right: 2em;
   color: #85888d;
-  font-size: 1rem;
+  font-size: 1.6rem;
   text-align: justify;
-  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
 }
 @media screen and (min-width: 768px){
   .welcome .secondParagraph{
-    font-size: 0.9rem;
-
+    font-size: 1.3rem;
+    margin-top: 2em;
   }
 }
 .button {
   width: 12em;
   height: 3.5em;
-  margin-top: 1.5em;
-  margin-bottom: 5em;
+  margin-top: 4em;
+  margin-bottom: 5.5em;
   border-radius: 2px;
   background-color: #cd9452;
   color: white;
-  font-size: 1.1em;
-  font-family: Poppins, sans-serif;
+  font-size: 1.5em;
+  font-family: 'Poppins', sans-serif;
   cursor: pointer;
   transition: 0.3s;
 }
 @media screen and (min-width: 768px) {
   .button {
-    margin-top: 2em;
-    font-size: 0.9em;
+    margin-top: 2.5em;
+    font-size: 1.4em;
     margin-bottom: 7.5em;
   }
 }

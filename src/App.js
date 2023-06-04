@@ -1,6 +1,6 @@
 import classes from "./App.module.css";
-// import Welcome from "./components/Welcome/Welcome";
-// import CafeAmenities from "./components/CafeAmenities/CafeAmenities";
+import Welcome from "./components/Welcome/Welcome";
+import CafeAmenities from "./components/CafeAmenities/CafeAmenities";
 import CardsInfo from "./components/CardsInfo/CardsInfo";
 
 const App = () => {
@@ -8,8 +8,8 @@ const App = () => {
 
   return (
     <>
-    {/* <Welcome/> */}
-    {/* <CafeAmenities/> */}
+    <Welcome/>
+    <CafeAmenities/>
     <CardsInfo/>
     </>
   );
