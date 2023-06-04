@@ -47,10 +47,10 @@
   height: 12%;
   border-radius: 0.3rem;
   font-size: 1.2rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  
+
   color: black;
   cursor: pointer;
   background-color: white;
@@ -90,8 +90,8 @@
   left: 28%;
   font-size: 4em;
 }
-.title3{
-    left:22%
+.title3 {
+  left: 22%;
 }
 .title2 {
   top: 23%;
@@ -110,11 +110,11 @@
   left: 22%;
   font-size: 4em;
 }
-.title2Second{
-    top: 32%;
-    left: 27%;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+.title2Second {
+  top: 32%;
+  left: 27%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
 }
 .title3Second {
   top: 45%;
