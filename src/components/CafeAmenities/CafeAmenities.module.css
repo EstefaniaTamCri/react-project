@@ -4,7 +4,7 @@
 .services {
   color: #cd9452;
   font-weight: 400;
-  font-family: Poppins, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.2em;
   text-align: center;
   padding-top: 3em;
@@ -24,7 +24,7 @@
 .amenities {
   font-size: 2em;
   font-weight: 900;
-  font-family: Poppins, sans-serif;
+  font-family: "Poppins", sans-serif;
   text-align: center;
   margin-top: 0.3em;
 }
@@ -104,7 +104,7 @@
 .title {
   font-size: 1.3em;
   font-weight: 500;
-  font-family: Poppins, sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-bottom: 0.5em;
   color: black;
   justify-content: center;
@@ -121,7 +121,7 @@
   text-align: center;
   font-weight: 400;
   font-size: 1.2em;
-  font-family: Poppins, sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #8d96a1;
 }
 

@@ -1,0 +1,122 @@
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  margin: 0 1em;
+}
+.cardDetails {
+  justify-content: center;
+  text-align: center;
+}
+.card1 {
+  margin-top: 4.5em;
+}
+.card1,
+.card2,
+.card3 {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+/* .card1, .card3{
+    filter: brightness(55%)
+    opacity(0.9);
+} */
+/* esto es para que se vea mas oscuro el fondo de la imagen */
+
+.button,
+.button2,
+.subTitle,
+.title2,
+.subTitle1,
+.title1,
+.subTitle3,
+.title3,
+.titleSecond,
+.title2Second,
+.title3Second {
+  position: absolute;
+  color: white;
+}
+.button,
+.button2 {
+  top: 75%;
+  left: 50%;
+  width: 42%;
+  height: 12%;
+  border-radius: 0.3rem;
+  font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  
+  color: black;
+  cursor: pointer;
+  background-color: white;
+  z-index: 2;
+}
+.button2 {
+  top: 70%;
+  left: 50%;
+  width: 38%;
+  height: 14%;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  font-size: 1.2em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.subTitle1,
+.subTitle3 {
+  top: 20%;
+  left: 32%;
+  font-size: 1.4em;
+  color: #c1c5b8;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.title2,
+.title1,
+.title3 {
+  font-size: 3em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.title1,
+.title3 {
+  top: 32%;
+  left: 28%;
+  font-size: 4em;
+}
+.title3{
+    left:22%
+}
+.title2 {
+  top: 23%;
+  left: 38%;
+}
+.titleSecond,
+.title2Second,
+.title3Second {
+  font-size: 3em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  color: white;
+}
+.titleSecond {
+  top: 45%;
+  left: 22%;
+  font-size: 4em;
+}
+.title2Second{
+    top: 32%;
+    left: 27%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.title3Second {
+  top: 45%;
+  left: 30%;
+}
