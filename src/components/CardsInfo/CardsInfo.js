@@ -10,7 +10,7 @@ import Card3 from './Card3';
 const CardsInfo = () => {
     return (
         <section className={classes.main}>
-        <div className={classes.cardContainer}>
+        <div className={classes.cardContainer1}>
             {card1.map((item, index) => (
             <Card1
                 key={index}
@@ -22,7 +22,7 @@ const CardsInfo = () => {
             />
             ))}
         </div>
-        <div className={classes.cardContainer}>
+        <div className={classes.cardContainer2}>
             {card2.map((item, index) => (
             <Card2
                 key={index}
@@ -34,7 +34,7 @@ const CardsInfo = () => {
             />
             ))}
         </div>
-        <div className={classes.cardContainer}>
+        <div className={classes.cardContainer3}>
             {card3.map((item, index) => (
             <Card3
                 key={index}
